@@ -136,7 +136,7 @@
                 <div class="modal fade" id="imgModal" tabindex="-1" aria-labelledby="bannerformmodal" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
-					<img id="news" src="" style="width: 700px;" />
+					<img src="img/portfolio/Outside Sidez.jpg" style="width: 700px;" />
 				</div>
 			</div>
 		</div>
@@ -144,10 +144,9 @@
 		<script>
 		  $(document).ready(
 		    function(){
-		      	$('.popimg').click(function(event){
-			$('#news').attr('src','img/portfolio/Outside Sidez.jpg');
-		      	$('.modal').modal('show');
-		      	return false;
+		      $('.popimg').click(function(event){
+		      $('.modal').modal('show');
+		      return false;
 		    });
 		  });
 		</script>
